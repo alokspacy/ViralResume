@@ -21,7 +21,7 @@ const app = express();
 app.set("trust proxy", 1);
 app.use(
   cors({
-    origin: "https://viral-resume.vercel.app", // reflect request origin - allows everything while keeping credentials working
+    origin: process.env.https://viral-resume.vercel.app/,
     credentials: true,
   })
 );
