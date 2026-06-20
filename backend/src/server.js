@@ -21,7 +21,7 @@ const app = express();
 app.set("trust proxy", 1);
 app.use(
   cors({
-    origin: true, // reflect request origin - allows everything while keeping credentials working
+    origin: env.clientOrigins,
     credentials: true,
   })
 );
