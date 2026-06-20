@@ -319,11 +319,10 @@ function VersionsPreview() {
       {versions.map((v, i) => (
         <div
           key={v.label}
-          className={`flex-1 rounded-xl p-2.5 ${
-            i === versions.length - 1
-              ? "bg-[var(--accent-soft)] border border-[var(--accent)]/30"
-              : "bg-[var(--surface)] border border-[var(--border)]"
-          }`}
+          className={`flex-1 rounded-xl p-2.5 ${i === versions.length - 1
+            ? "bg-[var(--accent-soft)] border border-[var(--accent)]/30"
+            : "bg-[var(--surface)] border border-[var(--border)]"
+            }`}
         >
           <div className="text-[9px] uppercase tracking-wide text-[var(--ink-muted)] font-semibold">
             {v.label}

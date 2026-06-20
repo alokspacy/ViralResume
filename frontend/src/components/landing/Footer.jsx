@@ -74,7 +74,7 @@ export function Footer() {
             <Link to="/" className="flex items-center gap-2.5">
               <AILogo />
               <span className="font-display text-[16px] font-semibold tracking-tight text-[var(--ink)]">
-                Resume Roaster
+                Viral Resume
               </span>
             </Link>
             <p className="text-[13px] text-[var(--ink-muted)] mt-4 max-w-xs leading-relaxed">
@@ -116,7 +116,7 @@ export function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-[var(--border)] flex flex-col sm:flex-row items-center justify-between gap-3 text-[12px] text-[var(--ink-muted)]">
-          <div>© 2026 Resume Roaster. All rights reserved.</div>
+          <div>© 2026 Viral Resume. All rights reserved.</div>
           <div className="flex items-center gap-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-[var(--success)] animate-pulse" />
             All systems operational

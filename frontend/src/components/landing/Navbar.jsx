@@ -43,7 +43,7 @@ export function Navbar() {
           <Link to="/" className="flex items-center gap-2.5 pl-1">
             <AILogo />
             <span className="font-display text-[15px] font-semibold tracking-tight text-[var(--ink)] hidden sm:inline">
-              Resume Roaster
+              Viral Resume
             </span>
           </Link>
 

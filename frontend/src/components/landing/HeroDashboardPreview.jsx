@@ -95,7 +95,7 @@ export function HeroDashboardPreview() {
           background:
             "linear-gradient(155deg, rgba(31,42,36,0.95) 0%, rgba(22,24,29,0.95) 50%, rgba(15,17,21,0.95) 100%)",
           boxShadow:
-            "0 24px 60px -16px rgba(0,0,0,0.7), inset 0 1px 0 0 rgba(255,255,255,0.05)",
+            "0 24px 60px -16px rgba(0,0,0,0.7), inset 0 1px 0 0 rgba(255,255,255,0.08)",
         }}
       >
         <div className="flex items-center gap-2 mb-3">
@@ -125,8 +125,8 @@ export function HeroDashboardPreview() {
                   it.tone === "high"
                     ? "#D4847C"
                     : it.tone === "med"
-                    ? "#D4A86A"
-                    : "#8FB39C",
+                      ? "#D4A86A"
+                      : "#8FB39C",
               }}
             />
             <div className="text-[11px] text-white/75 truncate">{it.label}</div>
@@ -144,7 +144,7 @@ export function HeroDashboardPreview() {
           background:
             "linear-gradient(155deg, rgba(31,42,36,0.95) 0%, rgba(22,24,29,0.95) 50%, rgba(15,17,21,0.95) 100%)",
           boxShadow:
-            "0 24px 60px -16px rgba(0,0,0,0.7), inset 0 1px 0 0 rgba(255,255,255,0.05)",
+            "0 24px 60px -16px rgba(0,0,0,0.7), inset 0 1px 0 0 rgba(255,255,255,0.08)",
         }}
       >
         <div className="flex items-center gap-2 mb-3">

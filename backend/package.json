@@ -1,7 +1,7 @@
 {
-  "name": "ai-resume-roaster-backend",
+  "name": "viral-resume-backend",
   "version": "0.1.0",
-  "description": "Backend for the AI Resume Roaster - ATS scoring, rewrites, version history",
+  "description": "Backend for the Viral Resume - ATS scoring, rewrites, version history",
   "main": "src/server.js",
   "type": "commonjs",
   "engines": {

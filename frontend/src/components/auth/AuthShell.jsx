@@ -98,7 +98,7 @@ function BrandPanel({ headline, subhead }) {
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/8 border border-white/10 backdrop-blur-md">
             <Sparkles size={12} className="text-white/80" />
             <span className="text-[11px] tracking-wide text-white/80 uppercase font-semibold">
-              AI Resume Roaster
+              Viral Resume
             </span>
           </div>
 
@@ -153,9 +153,8 @@ export function AuthField({
           autoComplete={autoComplete}
           required={required}
           minLength={minLength}
-          className={`peer w-full h-12 ${
-            Icon ? "pl-11 pr-4" : "px-4"
-          } rounded-2xl border border-[var(--border)] bg-[var(--surface)] text-[15px] text-[var(--ink)] placeholder:text-[var(--ink-muted)]/60 outline-none transition-all duration-200 focus:border-[var(--accent)]/40 focus:ring-4 focus:ring-[var(--accent)]/10`}
+          className={`peer w-full h-12 ${Icon ? "pl-11 pr-4" : "px-4"
+            } rounded-2xl border border-[var(--border)] bg-[var(--surface)] text-[15px] text-[var(--ink)] placeholder:text-[var(--ink-muted)]/60 outline-none transition-all duration-200 focus:border-[var(--accent)]/40 focus:ring-4 focus:ring-[var(--accent)]/10`}
         />
         {Icon && (
           <div className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-[var(--ink-muted)]/55 peer-focus:text-[var(--accent-strong)] peer-[:not(:placeholder-shown)]:text-[var(--accent-strong)] transition-colors">

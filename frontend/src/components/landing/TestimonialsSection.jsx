@@ -5,7 +5,7 @@ import { SectionHeader } from "./FeaturesSection";
 const TESTIMONIALS = [
   {
     quote:
-      "I'd been ghosted by 40+ companies. Ran my resume through Roaster, fixed 6 issues, and landed 3 onsites in two weeks.",
+      "I'd been ghosted by 40+ companies. Ran my resume through Viral Resume, fixed 6 issues, and landed 3 onsites in two weeks.",
     name: "Priya Raman",
     role: "Senior Frontend Engineer",
     company: "Stripe",

@@ -49,9 +49,9 @@ function VersionPicker({ versions, value, onChange, exclude }) {
             style={
               active
                 ? {
-                    background:
-                      "linear-gradient(135deg, var(--accent) 0%, var(--accent-strong) 100%)",
-                  }
+                  background:
+                    "linear-gradient(135deg, var(--accent) 0%, var(--accent-strong) 100%)",
+                }
                 : undefined
             }
           >
@@ -89,9 +89,9 @@ export function DiffView({ resumeId, versions }) {
   const initial =
     versions.length >= 2
       ? {
-          from: versions[versions.length - 2]._id,
-          to: versions[versions.length - 1]._id,
-        }
+        from: versions[versions.length - 2]._id,
+        to: versions[versions.length - 1]._id,
+      }
       : { from: versions[0]?._id, to: versions[0]?._id };
 
   const [fromId, setFromId] = useState(initial.from);
@@ -233,8 +233,8 @@ export function DiffView({ resumeId, versions }) {
                       net > 0
                         ? "text-[var(--accent-strong)]"
                         : net < 0
-                        ? "text-[var(--danger)]"
-                        : "text-[var(--ink-muted)]"
+                          ? "text-[var(--danger)]"
+                          : "text-[var(--ink-muted)]"
                     )}
                   >
                     {net > 0 ? "+" : net < 0 ? "" : "±"}
@@ -286,9 +286,9 @@ export function DiffView({ resumeId, versions }) {
                   className={cn(
                     !p.added && !p.removed && "text-[var(--ink)]",
                     p.added &&
-                      "bg-[var(--accent-soft)] text-[var(--accent-strong)] font-medium rounded px-0.5 py-0.5",
+                    "bg-[var(--accent-soft)] text-[var(--accent-strong)] font-medium rounded px-0.5 py-0.5",
                     p.removed &&
-                      "bg-[#F8E3E0] text-[var(--danger)] line-through decoration-[var(--danger)]/50 rounded px-0.5 py-0.5"
+                    "bg-[#F8E3E0] text-[var(--danger)] line-through decoration-[var(--danger)]/50 rounded px-0.5 py-0.5"
                   )}
                 >
                   {p.value}

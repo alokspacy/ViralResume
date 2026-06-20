@@ -43,7 +43,7 @@ export function DarkPanel({ className = "", children, glow = true, radius = "rou
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "linear-gradient(135deg, transparent 30%, rgba(255,255,255,0.05) 50%, transparent 70%)",
+            "linear-gradient(135deg, transparent 30%, rgba(255,255,255,0.08) 50%, transparent 70%)",
           backgroundSize: "200% 200%",
         }}
         animate={{ backgroundPosition: ["0% 0%", "100% 100%"] }}

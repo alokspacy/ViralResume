@@ -223,19 +223,17 @@ function DarkCard({ className = "", children }) {
 function KpiCard({ className = "", icon: Icon, label, value, suffix, delta, accent }) {
   return (
     <div
-      className={`rounded-2xl p-5 border ${
-        accent
-          ? "bg-gradient-to-br from-[#2F4A3A] to-[#1A2B22] border-[rgba(143,179,156,0.3)]"
-          : "bg-white/[0.03] border-white/[0.07]"
-      } ${className}`}
+      className={`rounded-2xl p-5 border ${accent
+        ? "bg-gradient-to-br from-[#2F4A3A] to-[#1A2B22] border-[rgba(143,179,156,0.3)]"
+        : "bg-white/[0.03] border-white/[0.07]"
+        } ${className}`}
     >
       <div className="flex items-center gap-2 mb-3">
         <div
-          className={`h-7 w-7 rounded-full flex items-center justify-center ${
-            accent
-              ? "bg-white/15 text-white"
-              : "bg-[rgba(143,179,156,0.14)] text-[#B6CFC0]"
-          }`}
+          className={`h-7 w-7 rounded-full flex items-center justify-center ${accent
+            ? "bg-white/15 text-white"
+            : "bg-[rgba(143,179,156,0.14)] text-[#B6CFC0]"
+            }`}
         >
           <Icon size={13} />
         </div>

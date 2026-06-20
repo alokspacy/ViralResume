@@ -86,6 +86,7 @@ body {
 .shadow-card {
   box-shadow: var(--shadow-card);
 }
+
 .shadow-hover {
   box-shadow: var(--shadow-hover);
 }
@@ -107,16 +108,20 @@ body {
   width: 10px;
   height: 10px;
 }
+
 ::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.08);
   border-radius: 8px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, 0.14);
 }
+
 [data-theme="dark"] ::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.08);
 }
+
 [data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.14);
 }
